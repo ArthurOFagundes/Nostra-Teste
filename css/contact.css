@@ -1,0 +1,172 @@
+/* GERAIS */
+:root{
+  --brown: #594E4E;
+  --grey: #686868;
+  --rose: #FFC7C7;
+  --white: #ffffff;
+  --black: #000000;
+  --light-grey: #D9D9D9;
+  --form-color: #B6B6B6;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+body{
+  overflow-x: hidden;
+    max-height: 1000px !important;
+}
+
+
+li {
+  list-style-type: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: .9rem;
+  margin-left: 1.24rem;
+}
+
+.bg-primary-color{
+  background-color: var(--brown);
+}
+
+.bg-secondary-color{
+  background-color: var(--grey);
+}
+
+.bg-tertiary-color{
+background-color: var(--rose);
+}
+
+.bg-quaternary-color{
+  background-color: var(--light-grey);
+}
+
+.bg-form-color{
+  background-color: var(--form-color);
+}
+
+.primary-color{
+  color: var(--white);
+}
+
+.secondary-color{
+  color: var(--black);
+}
+
+/* NAVBAR */
+.navbar a:hover{
+  color: var(--white);
+}
+
+.navbar a:active{
+  border-bottom: 1px solid var(--grey);
+}
+
+.navbar-brand{
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar-brand span{
+  color: var(--black);
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 4px 14px;
+  background-color: var(--light-grey);
+}
+
+#navbar-items .navbar-nav{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+#navbar-items .navbar-item{
+  margin: 0 1em;
+}
+
+.nav-link:hover{
+  color: var(--white);
+}
+
+/* FORM */
+.f-head{
+  height: 14.3rem;
+}
+
+.f-body{
+  height: 44.8rem;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 2.75rem;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-submit{
+  width: 13rem;
+  font-size: 1.1rem;
+  color: var(--white);
+}
+
+form{
+  border-radius: 0;
+}
+
+/* Footer*/
+.footer{
+  height: 18.8rem;
+}
+
+.light-grey{
+  color: var(--black);
+  font-weight: 600;
+  height: 3rem;
+  font-size: 2rem;
+  background-color: var(--light-grey);
+
+}
+
+.slogan{
+  font-family: 'Satisfy', sans-serif;
+  color: var(--white);
+  font-size: 2.75rem;
+}
+
+#copyright{
+  color: var(--grey);
+  background-color: var(--rose);
+  height: 3.1rem;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.social-item{
+  display: flex;
+}
+
+.social-link:hover{
+  text-decoration: none;
+  color: var(--white);
+}
+
+.social-link{
+  padding: 0;
+  margin-left: .3rem;
+  margin-bottom: 0.8rem;
+}
+
+.bi-app{
+  color: var(--white);
+}
