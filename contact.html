@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
-  <title>NOSTRA page</title>
+  <title>NOSTRA-TESTE</title>
 </head>
 
 <body>
@@ -50,13 +50,40 @@
   <div class="row bg-quaternary-color f-head"></div>
 
   <div class="row bg-form-color f-body d-flex align-items-center justify-content-center">
-    <div class="col-6 d-flex align-items-center justify-content-end">
-      <div class="form-leg">
-        <h1>CONTATO:</h1>
-        <h2>ENDEREÇO:</h2>
-        <h2>FONE:</h2>
-        <h2>E-MAIL</h2>
+    <div class="col-2"></div>
+    <div class=" col-8 d-flex align-items-baseline justify-content-center" >
+
+      <div class="d-flex flex-column" id="lb-form">
+        <label class="contact" for="messagebox">CONTATO:</label>
+        <label class="contact-h2" for="fone">E-MAIL:</label>
+        <label class="contact-h2"for="fone">FONE:</label>
+        <label class="contact-h2"for="messagebox">ENDEREÇO:</label>
       </div>
+  
+      <div id="f-container">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Nome*">
+          </div>
+  
+        <div class="form-group">
+          <input type="email" class="form-control"  placeholder="E-mail*">
+        </div>
+  
+        <div class="form-group">
+          <input type="text" class="form-control" id="fone" placeholder="Telefone*">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="messagebox" rows="3" placeholder="Mensagem*"></textarea>
+        </div>
+        <div class="d-flex justify-content-center"> 
+          <button type="button" class="btn btn-dark btn-lg btn-submit">ENVIAR</button>
+        </div>
+      </form>
+      </div>
+    </div>
+
+    <div class="col-2"></div>
     </div>
 
 
@@ -70,7 +97,7 @@
     </div>
 
     <div class="d-flex flex-column">
-      <div class="">
+      <div>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row">
           <li class="nav-item">
             <a class="nav-link primary-color" href="index.html">HOME</a>
