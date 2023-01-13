@@ -102,12 +102,15 @@ background-color: var(--rose);
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 1.8rem;
+  font-family: 'Rubik', sans-serif;
+
 }
 
 .contact-h2{
   font-weight: 500;
   font-size: .8rem;
   margin-bottom: 1.3rem;
+  font-family: 'Rubik', sans-serif;
 }
 
 #f-container{
