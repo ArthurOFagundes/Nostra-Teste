@@ -11,9 +11,12 @@
   
 }
 
+html{
+  width: 100%;
+}
+
 body{
   overflow-x: hidden;
-    max-height: 1000px !important;
 }
 
 li {
