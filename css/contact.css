@@ -10,10 +10,11 @@
   font-family: 'Rubik', sans-serif;
   
 }
-
+html{
+  width: 100%;
+}
 body{
   overflow-x: hidden;
-    max-height: 1000px !important;
 }
 
 
@@ -99,23 +100,24 @@ background-color: var(--rose);
 
 .contact{
   font-weight: bold;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
 }
 
 .contact-h2{
   font-weight: 500;
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
+  font-size: .8rem;
+  margin-bottom: 1.3rem;
 }
 
 #f-container{
-  width: 37rem;
+  width: 37.5rem;
 }
 
 #lb-form{
   padding-right: 4rem;
 }
+
 
 .btn-submit{
   width: 13rem;
